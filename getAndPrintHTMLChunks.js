@@ -12,7 +12,7 @@ function getAndPrintHTMLChunks () {
       response.on('data', function (data) {
         console.log(data + '\n');
       });
-    })
+    });
   }
 
 getAndPrintHTMLChunks();
