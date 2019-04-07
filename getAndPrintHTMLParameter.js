@@ -1,7 +1,7 @@
 var https = require('https');
 
 function getAndPrintHTML(options) {
-    https.get(requestOptions, function(response) {
+    https.get(options, function(response) {
         var appendedData = "";
         response.on('data', function(data) {
                 appendedData += data;
